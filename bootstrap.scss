@@ -1,20 +1,44 @@
-/******* Customized Bootstrap ********/
+/*!
+ * Bootstrap v4.5.3 (https://getbootstrap.com/)
+ * Copyright 2011-2020 The Bootstrap Authors
+ * Copyright 2011-2020 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
 
-$primary: #F77D0A;
-$secondary: #2B2E4A;
-$light: #F4F5F8;
-$dark: #1C1E32;
-
-$font-family-sans-serif: 'Rubik', sans-serif;
-
-$headings-font-family: 'Oswald', sans-serif;
-
-$body-color: #8486A0;
-
-$headings-color: $secondary;
-
-$enable-responsive-font-sizes: true;
-
-$enable-rounded: false;
-
-@import "bootstrap/scss/bootstrap";
+@import "functions";
+@import "variables";
+@import "mixins";
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "code";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+@import "transitions";
+@import "dropdown";
+@import "button-group";
+@import "input-group";
+@import "custom-forms";
+@import "nav";
+@import "navbar";
+@import "card";
+@import "breadcrumb";
+@import "pagination";
+@import "badge";
+@import "jumbotron";
+@import "alert";
+@import "progress";
+@import "media";
+@import "list-group";
+@import "close";
+@import "toasts";
+@import "modal";
+@import "tooltip";
+@import "popover";
+@import "carousel";
+@import "spinners";
+@import "utilities";
+@import "print";
